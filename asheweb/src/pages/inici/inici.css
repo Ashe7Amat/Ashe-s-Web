@@ -1,0 +1,97 @@
+/* Inici.css */
+
+/* Eliminar restricciones en el body para permitir scroll */
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Solo oculta el desplazamiento horizontal */
+    overflow-y: scroll; /* Habilita el desplazamiento vertical pero oculta la barra */
+  }
+  
+  /* Contenedor principal */
+  .inici-container {
+    min-height: 100vh; /* Permite crecer según el contenido */
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Contenedor del Masonry */
+  .masonry-container {
+    width: 90vw;
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Sección de texto */
+  .inici-texto {
+    max-width: 800px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 2rem;
+    width: 100%;
+  }
+  
+  .inici-texto h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .inici-texto p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  /* Botón */
+  .inici-boton {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    color: white;
+    background-color: #333;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    border-radius: 5px;
+  }
+  
+  .inici-boton:hover {
+    background-color: #067f38;
+  }
+  
+  /* Loader */
+  .loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f8f8f8;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+  }
+  
+  .loader {
+    border: 8px solid #e0e0e0;
+    border-top: 8px solid #333;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
