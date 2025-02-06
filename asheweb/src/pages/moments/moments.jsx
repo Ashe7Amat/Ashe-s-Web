@@ -5,7 +5,7 @@ import './moments.css';
 
 // Importa imágenes
 import PortadaMadrid from '../../assets/images/moments/madriz/portada/PortadaMadrid.JPG';
-import PortadaMilan from '../../assets/images/moments/Milan/portada/PortadaMilan.JPG';
+import PortadaMilan from '../../assets/images/moments/Milan/portada/PortadaMilan4.JPG';
 import PortadaLost from '../../assets/images/moments/Lost/portada/PortadaLost.JPG';
 
 const albums = [
