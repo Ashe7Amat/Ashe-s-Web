@@ -1,5 +1,5 @@
 import React from "react";
-import './lost.css';
+
 
 export default function Lost() {
     return (

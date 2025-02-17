@@ -1,5 +1,7 @@
-import React from "react";
-import "./milan.css";
+import	{React,useEffect} from 'react';
+
+import Gallery from "../../../components/gallery/gallery"; 
+
 import milna1 from "../../../assets/images/moments/Milan/gallery/milna1.JPG";
 import milna2 from "../../../assets/images/moments/Milan/gallery/milna2.JPG";
 import milna3 from "../../../assets/images/moments/Milan/gallery/milna3.JPG";
@@ -29,60 +31,43 @@ import milna26 from "../../../assets/images/moments/Milan/gallery/minla26.JPG";
 import milna27 from "../../../assets/images/moments/Milan/gallery/milna27.JPG";
 
 const items = [
-  { text: "milna1", img: milna1, orientation: "horizontal" },
-  { text: "milna2", img: milna2, orientation: "horizontal" },
-  { text: "milna26", img: milna26, orientation: "vertical" }, 
-  { text: "milna4", img: milna4, orientation: "vertical" },
-  { text: "milna3", img: milna3, orientation: "horizontal" },
- 
-  { text: "milna5", img: milna5, orientation: "horizontal" },
-  { text: "milna6", img: milna6, orientation: "horizontal" },
-  { text: "milna7", img: milna7, orientation: "vertical" },
-  { text: "milna8", img: milna8, orientation: "horizontal" },
-  
-  { text: "milna10", img: milna10, orientation: "horizontal" },
-  { text: "milna11", img: milna11, orientation: "horizontal" },
-  { text: "milna9", img: milna9, orientation: "vertical" },
-  { text: "milna12", img: milna12, orientation: "vertical" },
-  { text: "milna13", img: milna13, orientation: "horizontal" },
-  { text: "milna14", img: milna14, orientation: "horizontal" },
-  
-  { text: "milna16", img: milna16, orientation: "horizontal" },
-  { text: "milna15", img: milna15, orientation: "vertical" },
-  { text: "milna17", img: milna17, orientation: "horizontal" },
-  { text: "milna18", img: milna18, orientation: "horizontal" },
-  
-  { text: "milna20", img: milna20, orientation: "horizontal" },
-  { text: "milna19", img: milna19, orientation: "vertical" },
-  { text: "milna21", img: milna21, orientation: "horizontal" },
-  { text: "milna25", img: milna25, orientation: "vertical" },
-  { text: "milna22", img: milna22, orientation: "horizontal" },
-  { text: "milna23", img: milna23, orientation: "horizontal" },
-  { text: "milna24", img: milna24, orientation: "vertical" },
-  { text: "milna27", img: milna27, orientation: "horizontal" },
-  
-  
+  { text: "Estacione centrale di Milano", img: milna1, orientation: "horizontal" },
+  { text: "Galería Vittorio Emanuele II", img: milna2, orientation: "horizontal" },
+  { text: "Naviglio Pavese", img: milna26, orientation: "vertical" }, 
+  { text: "L'appartamento", img: milna4, orientation: "vertical" },
+  { text: "La cucina di Mati", img: milna3, orientation: "horizontal" },
+  { text: "Viste dell'appartamento", img: milna5, orientation: "horizontal" },
+  { text: "Lungo il ponte", img: milna6, orientation: "horizontal" },
+  { text: "Le proprie strade", img: milna7, orientation: "vertical" },
+  { text: "Le posate più costose", img: milna8, orientation: "horizontal" },
+  { text: "Da film", img: milna10, orientation: "horizontal" },
+  { text: "Pronto per vivere", img: milna11, orientation: "horizontal" },
+  { text: "Semplicità", img: milna9, orientation: "vertical" },
+  { text: "Foto stupenda", img: milna12, orientation: "vertical" },
+  { text: "Solo vegetación", img: milna13, orientation: "horizontal" },
+  { text: "Coppia italiana", img: milna14, orientation: "horizontal" },
+  { text: "Il momento migliore", img: milna16, orientation: "horizontal" },
+  { text: "Lago di Como", img: milna15, orientation: "vertical" },
+  { text: "Lago di Como 2", img: milna17, orientation: "horizontal" },
+  { text: "Lottatori di Dio", img: milna18, orientation: "horizontal" },
+  { text: "Le migliori viste d'Italia", img: milna20, orientation: "horizontal" },
+  { text: "Vespa in Italia", img: milna19, orientation: "vertical" },
+  { text: "Tecnologie ecologiche", img: milna21, orientation: "horizontal" },
+  { text: "Un giorno...", img: milna25, orientation: "vertical" },
+  { text: "Solo per strada", img: milna22, orientation: "horizontal" },
+  { text: "Ricchi del mondo", img: milna23, orientation: "horizontal" },
+  { text: "Riservatezza", img: milna24, orientation: "vertical" },
+  { text: "Semplice", img: milna27, orientation: "horizontal" },
 ];
 
 export default function Milan() {
-  return (
-    <div className="gallery-container">
-      <h1>My Gallery</h1>
-      <div className="grid">
-        {items.map((item, index) => (
-          <div
-            key={index}
-            className={`item ${
-              item.orientation === "horizontal"
-                ? "item--horizontal"
-                : "item--vertical"
-            }`}
-          >
-            <img src={item.img} alt={item.text} />
-            <div className="item__details">{item.text}</div>
-          </div>
-        ))}
-      </div>
-    </div>
-  );
-}
+    useEffect(() => {
+      document.body.classList.add("milan-page");
+  
+      return () => {
+        document.body.classList.remove("milan-page"); // Limpia la clase cuando salgas
+      };
+    }, []);
+  
+    return <Gallery items={items} title="Milan Gallery" />;
+  }

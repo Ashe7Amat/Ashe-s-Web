@@ -1,12 +1,14 @@
-import React from 'react';
-import { Link } from 'react-router-dom'; // Importa Link para la navegación
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './moments.css';
-
 
 // Importa imágenes
 import PortadaMadrid from '../../assets/images/moments/madriz/portada/PortadaMadrid.JPG';
 import PortadaMilan from '../../assets/images/moments/Milan/portada/PortadaMilan4.JPG';
 import PortadaLost from '../../assets/images/moments/Lost/portada/PortadaLost.JPG';
+import Portada2025 from '../../assets/images/moments/2025/portada/portada2025.jpg';
+import Portada2024 from '../../assets/images/moments/2024/portada/portada2024.JPG';
+import Graduacio from '../../assets/images/moments/graduacio/portada/portadaGradu.JPG'
 
 const albums = [
   {
@@ -30,19 +32,50 @@ const albums = [
     image: PortadaMadrid,
     link: "/moments/madrid",
   },
+  {
+    id: 4,
+    title: "2025",
+    year: 2025,
+    image: Portada2025,
+    link: "/moments/2025",
+  },
+  {
+    id: 5,
+    title: "2024",
+    year: 2024,
+    image: Portada2024,
+    link: "/moments/2024",
+  },
+  {
+    id: 6,
+    title: "Graduacio ",
+    year: 2023,
+    image: Graduacio,
+    link: "/moments/graduacio",
+  },
 ];
 
 export default function Moments() {
+  const [hoveredCard, setHoveredCard] = useState(null);
+
   return (
     <div className="moments-container">
       <h1>Albums</h1>
       <div className="albums-grid">
         {albums.map((album) => (
-          <Link key={album.id} to={album.link} className="album-card">
-            <img src={album.image} alt={album.title} className="album-image" />
-            <div className="album-details">
-              <h2>{album.title}</h2>
-              <p>{album.year}</p>
+          <Link
+            key={album.id}
+            to={album.link}
+            className={`album-card ${hoveredCard === album.id ? 'hovered' : ''}`}
+            onMouseEnter={() => setHoveredCard(album.id)}
+            onMouseLeave={() => setHoveredCard(null)}
+          >
+            <div className="card-bg" style={{ backgroundImage: `url(${album.image})` }}></div>
+            <div className="card">
+              <div className="card-info">
+                <h2>{album.title}</h2>
+                <p>{album.year}</p>
+              </div>
             </div>
           </Link>
         ))}
@@ -50,3 +83,4 @@ export default function Moments() {
     </div>
   );
 }
+
