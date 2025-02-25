@@ -40,13 +40,13 @@ export default function Gallery({ items, title = "My Gallery" }) {
       <h1>{title}</h1>
      
       <div
-        className={`grid ${items.length >= 47 ? "grid--large" : "grid--center" }`}
+        className={`grid ${items.length >= 44 ? "grid--large" : "grid--center" }`}
       >
         {items.map((item, index) => (
           <div
             key={index}
             className={`item ${
-              item.orientation === "horizontal" ? "item--horizontal" : "item--vertical"
+              item.orientation === "horizontal" ? "item--horizontal" : item.orientation === "big" ? "item--big" : "item--vertical"
             }`}
             onClick={() => openModal(index)}
           >
@@ -66,3 +66,4 @@ export default function Gallery({ items, title = "My Gallery" }) {
     </div>
   );
 }
+

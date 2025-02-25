@@ -57,12 +57,30 @@ const albums = [
 
 export default function Moments() {
   const [hoveredCard, setHoveredCard] = useState(null);
+  const [sortBy, setSortBy] = useState('year');
+
+  const sortedAlbums = albums.sort((a, b) => {
+    if (sortBy === 'year') {
+      return b.year - a.year;
+    } else if (sortBy === 'title') {
+      return a.title.localeCompare(b.title);
+    }
+  });
 
   return (
     <div className="moments-container">
       <h1>Albums</h1>
+      <div className="sort">
+        <label>
+          Sort by:
+          <select value={sortBy} onChange={(e) => setSortBy(e.target.value)}>
+            <option value="year">Year</option>
+            <option value="title">Title</option>
+          </select>
+        </label>
+      </div>
       <div className="albums-grid">
-        {albums.map((album) => (
+        {sortedAlbums.map((album) => (
           <Link
             key={album.id}
             to={album.link}

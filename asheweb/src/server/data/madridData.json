@@ -1,0 +1,472 @@
+[
+  {
+    "id": "madrid1",
+    "title": "Estacione Atocha",
+    "description": "Estación de tren principal de Madrid",
+    "type": "image",
+    "category": "madrid",
+    "url": "/assets/images/moments/madriz/gallery/Madrid1.jpg",
+    "orientation": "vertical",
+    "createdAt": {"$date": "2024-01-20T00:00:00Z"}
+  },
+  {
+    "id": "madrid2",
+    "title": "Puerta del Sol",
+    "description": "Plaza histórica en el centro de Madrid",
+    "type": "image",
+    "category": "madrid",
+    "url": "/assets/images/moments/madriz/gallery/Madrid2.jpg",
+    "orientation": "vertical",
+    "createdAt": {"$date": "2024-01-20T00:00:00Z"}
+  },
+  {
+    "id": "madrid3",
+    "title": "Plaza Mayor",
+    "description": "Plaza principal de Madrid",
+    "type": "image",
+    "category": "madrid",
+    "url": "/assets/images/moments/madriz/gallery/Madrid3.jpg",
+    "orientation": "horizontal",
+    "createdAt": {"$date": "2024-01-20T00:00:00Z"}
+  },
+  {
+    "id": "madrid4",
+    "title": "Kiosco de la Plaza Mayor",
+    "description": "Kiosco histórico en la Plaza Mayor",
+    "type": "image",
+    "category": "madrid",
+    "url": "/assets/images/moments/madriz/gallery/Madrid4.jpg",
+    "orientation": "horizontal",
+    "createdAt": {"$date": "2024-01-20T00:00:00Z"}
+  },
+  {
+    "id": "madrid5",
+    "title": "Mercado de San Miguel",
+    "description": "Mercado histórico de Madrid",
+    "type": "image",
+    "category": "madrid",
+    "url": "/assets/images/moments/madriz/gallery/Madrid5.jpg",
+    "orientation": "horizontal",
+    "createdAt": {"$date": "2024-01-20T00:00:00Z"}
+  },
+  {
+    "id": "madrid6",
+    "title": "Catedral de la Almudena",
+    "description": "Catedral principal de Madrid",
+    "type": "image",
+    "category": "madrid",
+    "url": "/assets/images/moments/madriz/gallery/Madrid6.jpg",
+    "orientation": "horizontal",
+    "createdAt": {"$date": "2024-01-20T00:00:00Z"}
+  },
+  {
+    "id": "madrid7",
+    "title": "Plaza de Cibeles",
+    "description": "Plaza emblemática de Madrid",
+    "type": "image",
+    "category": "madrid",
+    "url": "/assets/images/moments/madriz/gallery/Madrid7.jpg",
+    "orientation": "horizontal",
+    "createdAt": {"$date": "2024-01-20T00:00:00Z"}
+  },
+  {
+    "id": "madrid8",
+    "title": "El Retiro",
+    "description": "Parque principal de Madrid",
+    "type": "image",
+    "category": "madrid",
+    "url": "/assets/images/moments/madriz/gallery/Madrid8.jpg",
+    "orientation": "horizontal",
+    "createdAt": {"$date": "2024-01-20T00:00:00Z"}
+  },
+  {
+    "id": "madrid9",
+    "title": "Kiosco de la Musica",
+    "description": "Kiosco histórico en El Retiro",
+    "type": "image",
+    "category": "madrid",
+    "url": "/assets/images/moments/madriz/gallery/Madrid9.jpg",
+    "orientation": "horizontal",
+    "createdAt": {"$date": "2024-01-20T00:00:00Z"}
+  },
+  {
+    "id": "madrid10",
+    "title": "Lago del Retiro",
+    "description": "Lago principal del Parque del Retiro",
+    "type": "image",
+    "category": "madrid",
+    "url": "/assets/images/moments/madriz/gallery/Madrid10.jpg",
+    "orientation": "horizontal",
+    "createdAt": {"$date": "2024-01-20T00:00:00Z"}
+  },
+  {
+    "id": "madrid11",
+    "title": "Velázquez en el Prado",
+    "description": "Museo del Prado",
+    "type": "image",
+    "category": "madrid",
+    "url": "/assets/images/moments/madriz/gallery/Madrid11.jpg",
+    "orientation": "horizontal",
+    "createdAt": {"$date": "2024-01-20T00:00:00Z"}
+  },
+  {
+    "id": "madrid12",
+    "title": "Cena en el Barrio de las Letras",
+    "description": "Restaurante en el Barrio de las Letras",
+    "type": "image",
+    "category": "madrid",
+    "url": "/assets/images/moments/madriz/gallery/Madrid12.jpg",
+    "orientation": "horizontal",
+    "createdAt": {"$date": "2024-01-20T00:00:00Z"}
+  },
+  {
+    "id": "madrid15",
+    "title": "Catedral de la Almudena",
+    "description": "Vista alternativa de la Catedral",
+    "type": "image",
+    "category": "madrid",
+    "url": "/assets/images/moments/madriz/gallery/Madrid15.jpg",
+    "orientation": "horizontal",
+    "createdAt": {"$date": "2024-01-20T00:00:00Z"}
+  },
+  {
+    "id": "madrid16",
+    "title": "Calle de Alcalá",
+    "description": "Calle histórica de Madrid",
+    "type": "image",
+    "category": "madrid",
+    "url": "/assets/images/moments/madriz/gallery/Madrid16.jpg",
+    "orientation": "horizontal",
+    "createdAt": {"$date": "2024-01-20T00:00:00Z"}
+  },
+  {
+    "id": "madrid17",
+    "title": "Puerta de Alcalá",
+    "description": "Monumento histórico de Madrid",
+    "type": "image",
+    "category": "madrid",
+    "url": "/assets/images/moments/madriz/gallery/Madrid17.jpg",
+    "orientation": "horizontal",
+    "createdAt": {"$date": "2024-01-20T00:00:00Z"}
+  },
+  {
+    "id": "madrid18",
+    "title": "Plaza de Colón",
+    "description": "Plaza histórica con monumento a Colón",
+    "type": "image",
+    "category": "madrid",
+    "url": "/assets/images/moments/madriz/gallery/Madrid18.jpg",
+    "orientation": "horizontal",
+    "createdAt": {"$date": "2024-01-20T00:00:00Z"}
+  },
+  {
+    "id": "madrid19",
+    "title": "Cena en el centro",
+    "description": "Restaurante en el centro de Madrid",
+    "type": "image",
+    "category": "madrid",
+    "url": "/assets/images/moments/madriz/gallery/Madrid19.jpg",
+    "orientation": "vertical",
+    "createdAt": {"$date": "2024-01-20T00:00:00Z"}
+  },
+  {
+    "id": "madrid20",
+    "title": "Teatro Real",
+    "description": "Teatro de ópera de Madrid",
+    "type": "image",
+    "category": "madrid",
+    "url": "/assets/images/moments/madriz/gallery/Madrid20.jpg",
+    "orientation": "horizontal",
+    "createdAt": {"$date": "2024-01-20T00:00:00Z"}
+  },
+  {
+    "id": "madrid21",
+    "title": "Plaza de la Opera",
+    "description": "Plaza frente al Teatro Real",
+    "type": "image",
+    "category": "madrid",
+    "url": "/assets/images/moments/madriz/gallery/Madrid21.jpg",
+    "orientation": "horizontal",
+    "createdAt": {"$date": "2024-01-20T00:00:00Z"}
+  },
+  {
+    "id": "madrid22",
+    "title": "Café de la Opera",
+    "description": "Café histórico cerca del Teatro Real",
+    "type": "image",
+    "category": "madrid",
+    "url": "/assets/images/moments/madriz/gallery/Madrid22.jpg",
+    "orientation": "horizontal",
+    "createdAt": {"$date": "2024-01-20T00:00:00Z"}
+  },
+  {
+    "id": "madrid23",
+    "title": "Palacio Real",
+    "description": "Palacio Real de Madrid",
+    "type": "image",
+    "category": "madrid",
+    "url": "/assets/images/moments/madriz/gallery/Madrid23.jpg",
+    "orientation": "horizontal",
+    "createdAt": {"$date": "2024-01-20T00:00:00Z"}
+  },
+  {
+    "id": "madrid24",
+    "title": "Arco de Triunfo",
+    "description": "Arco de Triunfo de Madrid",
+    "type": "image",
+    "category": "madrid",
+    "url": "/assets/images/moments/madriz/gallery/Madrid24.jpg",
+    "orientation": "horizontal",
+    "createdAt": {"$date": "2024-01-20T00:00:00Z"}
+  },
+  {
+    "id": "madrid25",
+    "title": "Plaza de España",
+    "description": "Plaza emblemática con monumento a Cervantes",
+    "type": "image",
+    "category": "madrid",
+    "url": "/assets/images/moments/madriz/gallery/Madrid25.jpg",
+    "orientation": "vertical",
+    "createdAt": {"$date": "2024-01-20T00:00:00Z"}
+  },
+  {
+    "id": "madrid26",
+    "title": "Cena en Malasaña",
+    "description": "Restaurante en el barrio de Malasaña",
+    "type": "image",
+    "category": "madrid",
+    "url": "/assets/images/moments/madriz/gallery/Madrid26.jpg",
+    "orientation": "horizontal",
+    "createdAt": {"$date": "2024-01-20T00:00:00Z"}
+  },
+  {
+    "id": "madrid27",
+    "title": "Plaza de Dos de Mayo",
+    "description": "Plaza histórica en Malasaña",
+    "type": "image",
+    "category": "madrid",
+    "url": "/assets/images/moments/madriz/gallery/Madrid27.jpg",
+    "orientation": "horizontal",
+    "createdAt": {"$date": "2024-01-20T00:00:00Z"}
+  },
+  {
+    "id": "madrid28",
+    "title": "Calle de Fuencarral",
+    "description": "Calle comercial de Madrid",
+    "type": "image",
+    "category": "madrid",
+    "url": "/assets/images/moments/madriz/gallery/Madrid28.jpg",
+    "orientation": "horizontal",
+    "createdAt": {"$date": "2024-01-20T00:00:00Z"}
+  },
+  {
+    "id": "madrid29",
+    "title": "Plaza de la Luna",
+    "description": "Plaza histórica en el centro de Madrid",
+    "type": "image",
+    "category": "madrid",
+    "url": "/assets/images/moments/madriz/gallery/Madrid29.jpg",
+    "orientation": "horizontal",
+    "createdAt": {"$date": "2024-01-20T00:00:00Z"}
+  },
+  {
+    "id": "madrid30",
+    "title": "Café del Mercado de San Antón",
+    "description": "Café en el mercado gastronómico",
+    "type": "image",
+    "category": "madrid",
+    "url": "/assets/images/moments/madriz/gallery/Madrid30.jpg",
+    "orientation": "horizontal",
+    "createdAt": {"$date": "2024-01-20T00:00:00Z"}
+  },
+  {
+    "id": "madrid31",
+    "title": "Mercado de San Antón",
+    "description": "Mercado moderno de Madrid",
+    "type": "image",
+    "category": "madrid",
+    "url": "/assets/images/moments/madriz/gallery/Madrid31.jpg",
+    "orientation": "horizontal",
+    "createdAt": {"$date": "2024-01-20T00:00:00Z"}
+  },
+  {
+    "id": "madrid32",
+    "title": "Calle de San Andrés",
+    "description": "Calle histórica de Madrid",
+    "type": "image",
+    "category": "madrid",
+    "url": "/assets/images/moments/madriz/gallery/Madrid32.jpg",
+    "orientation": "vertical",
+    "createdAt": {"$date": "2024-01-20T00:00:00Z"}
+  },
+  {
+    "id": "madrid33",
+    "title": "Plaza de Tirso de Molina",
+    "description": "Plaza con jardines en el centro",
+    "type": "image",
+    "category": "madrid",
+    "url": "/assets/images/moments/madriz/gallery/Madrid33.jpg",
+    "orientation": "horizontal",
+    "createdAt": {"$date": "2024-01-20T00:00:00Z"}
+  },
+  {
+    "id": "madrid34",
+    "title": "Café del Mercado de Antón Martín",
+    "description": "Café tradicional en el mercado",
+    "type": "image",
+    "category": "madrid",
+    "url": "/assets/images/moments/madriz/gallery/Madrid34.jpg",
+    "orientation": "horizontal",
+    "createdAt": {"$date": "2024-01-20T00:00:00Z"}
+  },
+  {
+    "id": "madrid35",
+    "title": "Mercado de Antón Martín",
+    "description": "Mercado tradicional de Madrid",
+    "type": "image",
+    "category": "madrid",
+    "url": "/assets/images/moments/madriz/gallery/Madrid35.jpg",
+    "orientation": "horizontal",
+    "createdAt": {"$date": "2024-01-20T00:00:00Z"}
+  },
+  {
+    "id": "madrid36",
+    "title": "Calle de Antón Martín",
+    "description": "Calle histórica del barrio",
+    "type": "image",
+    "category": "madrid",
+    "url": "/assets/images/moments/madriz/gallery/Madrid36.jpg",
+    "orientation": "horizontal",
+    "createdAt": {"$date": "2024-01-20T00:00:00Z"}
+  },
+  {
+    "id": "madrid37",
+    "title": "Plaza de la Paja",
+    "description": "Plaza histórica de Madrid",
+    "type": "image",
+    "category": "madrid",
+    "url": "/assets/images/moments/madriz/gallery/Madrid37.jpg",
+    "orientation": "horizontal",
+    "createdAt": {"$date": "2024-01-20T00:00:00Z"}
+  },
+  {
+    "id": "madrid38",
+    "title": "Café de la Plaza de la Paja",
+    "description": "Café con terraza en la plaza",
+    "type": "image",
+    "category": "madrid",
+    "url": "/assets/images/moments/madriz/gallery/Madrid38.jpg",
+    "orientation": "horizontal",
+    "createdAt": {"$date": "2024-01-20T00:00:00Z"}
+  },
+  {
+    "id": "madrid39",
+    "title": "Plaza del Humilladero",
+    "description": "Plaza histórica de La Latina",
+    "type": "image",
+    "category": "madrid",
+    "url": "/assets/images/moments/madriz/gallery/Madrid39.jpg",
+    "orientation": "vertical",
+    "createdAt": {"$date": "2024-01-20T00:00:00Z"}
+  },
+  {
+    "id": "madrid40",
+    "title": "Café del Mercado de la Cebada",
+    "description": "Café tradicional del mercado",
+    "type": "image",
+    "category": "madrid",
+    "url": "/assets/images/moments/madriz/gallery/Madrid40.jpg",
+    "orientation": "vertical",
+    "createdAt": {"$date": "2024-01-20T00:00:00Z"}
+  },
+  {
+    "id": "madrid41",
+    "title": "Mercado de la Cebada",
+    "description": "Mercado tradicional de La Latina",
+    "type": "image",
+    "category": "madrid",
+    "url": "/assets/images/moments/madriz/gallery/Madrid41.jpg",
+    "orientation": "horizontal",
+    "createdAt": {"$date": "2024-01-20T00:00:00Z"}
+  },
+  {
+    "id": "madrid42",
+    "title": "Calle de la Cebada",
+    "description": "Calle histórica del barrio",
+    "type": "image",
+    "category": "madrid",
+    "url": "/assets/images/moments/madriz/gallery/Madrid42.jpg",
+    "orientation": "horizontal",
+    "createdAt": {"$date": "2024-01-20T00:00:00Z"}
+  },
+  {
+    "id": "madrid43",
+    "title": "Plaza de la Latina",
+    "description": "Plaza principal del barrio",
+    "type": "image",
+    "category": "madrid",
+    "url": "/assets/images/moments/madriz/gallery/Madrid43.jpg",
+    "orientation": "horizontal",
+    "createdAt": {"$date": "2024-01-20T00:00:00Z"}
+  },
+  {
+    "id": "madrid44",
+    "title": "Plaza de San Andrés",
+    "description": "Plaza histórica de Madrid",
+    "type": "image",
+    "category": "madrid",
+    "url": "/assets/images/moments/madriz/gallery/madrid44.jpg",
+    "orientation": "vertical",
+    "createdAt": {"$date": "2024-01-20T00:00:00Z"}
+  },
+  {
+    "id": "madrid45",
+    "title": "Calle de San Andrés",
+    "description": "Calle del barrio antiguo",
+    "type": "image",
+    "category": "madrid",
+    "url": "/assets/images/moments/madriz/gallery/madrid45.jpg",
+    "orientation": "vertical",
+    "createdAt": {"$date": "2024-01-20T00:00:00Z"}
+  },
+  {
+    "id": "madrid46",
+    "title": "Café de la Plaza de San Andrés",
+    "description": "Café con terraza tradicional",
+    "type": "image",
+    "category": "madrid",
+    "url": "/assets/images/moments/madriz/gallery/madrid46.jpg",
+    "orientation": "vertical",
+    "createdAt": {"$date": "2024-01-20T00:00:00Z"}
+  },
+  {
+    "id": "madrid47",
+    "title": "Plaza de San Pedro",
+    "description": "Plaza histórica de Madrid",
+    "type": "image",
+    "category": "madrid",
+    "url": "/assets/images/moments/madriz/gallery/madrid47.jpg",
+    "orientation": "vertical",
+    "createdAt": {"$date": "2024-01-20T00:00:00Z"}
+  },
+  {
+    "id": "madrid48",
+    "title": "Calle de San Pedro",
+    "description": "Calle del Madrid antiguo",
+    "type": "image",
+    "category": "madrid",
+    "url": "/assets/images/moments/madriz/gallery/madrid48.jpg",
+    "orientation": "vertical",
+    "createdAt": {"$date": "2024-01-20T00:00:00Z"}
+  },
+  {
+    "id": "madrid49",
+    "title": "Café de la Plaza de San Pedro",
+    "description": "Café tradicional con terraza",
+    "type": "image",
+    "category": "madrid",
+    "url": "/assets/images/moments/madriz/gallery/madrid49.jpg",
+    "orientation": "vertical",
+    "createdAt": {"$date": "2024-01-20T00:00:00Z"}
+  }
+]

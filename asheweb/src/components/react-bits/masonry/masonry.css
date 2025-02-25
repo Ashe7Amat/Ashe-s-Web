@@ -27,7 +27,4 @@
   transition: 0.3s ease;
 }
 
-.masonry > div > div:hover {
-  transform: scale(1.01);
-  transition: 0.3s ease;
-}
+
